@@ -1,132 +1,170 @@
+import Image from "next/image";
+import MeatCombo from "../public/images/Meatcombo.png";
+import PenneMarinara from "../public/images/PenneMarinara.png";
+import redlentil from "../public/images/redlentil.png";
+import Pastaham from "../public/images/pastaham.png";
+import Mushroombites from "../public/images/MushroomTibes.jpg";
+import CaeserSalad from "../public/images/CaeserSalad.jpg";
+
+
 export default function Menu() {
     return (
-        <section className="section menu" aria-label="menu-label" id="menu">
-  <div className="container">
-    <p className="section-subtitle text-center label-2">Special Selection</p>
-    <h2 className="headline-1 section-title text-center">Delicious Menu</h2>
-    <ul className="grid-list">
-      <li>
-        <div className="menucard ">
-          <div>
-            <div className="title-wrapper">
-              <h3 className="title-3">
-                <a href="#" className="card-title">
-                  Greek Salad
-                </a>
-              </h3>
-              <span className="badge label-1">Seasonal</span>
-              <span className="span title-2">$25.50</span>
+      <section className="section menu" aria-label="menu-label" id="menu">
+      <div className="container">
+        <p className="section-subtitle text-center label-2">Special Selection</p>
+        <h2 className="headline-1 section-title text-center">Delicious Menu</h2>
+        <ul className="grid-list">
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={MeatCombo} width={100} height={100} alt="meat combo"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                      Meat Combo
+                    </a>
+                  </h3>
+                  <span className="span title-2">$17.00</span>
+                </div>
+                <p className="card-text label-1">
+                Meat dish with beef, lamb alicha, chicken wot and collard
+                green
+                </p>
+              </div>
             </div>
-            <p className="card-text label-1">
-              Tomatoes, green bell pepper, sliced cucumber onion, olives, and
-              feta cheese.
-            </p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div className="menu-card">
-          <div>
-            <div className="title-wrapper">
-              <h3 className="title-3">
-                <a href="#" className="card-title">
-                  Lasagne
-                </a>
-              </h3>
-              <span className="span title-2">$40.00</span>
+          </li>
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={PenneMarinara} width={100} height={100} alt="Penne Marinara"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                      Penne Marinara
+                    </a>
+                  </h3>
+                  <span className="span title-2">$16.00</span>
+                </div>
+                <p className="card-text label-1">
+                penne pasta, marinara, caramelized peppers and onions and garlic
+                </p>
+              </div>
             </div>
-            <p className="card-text label-1">
-              Vegetables, cheeses, ground meats, tomato sauce, seasonings and
-              spices
-            </p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div className="menu-card">
-          <div>
-            <div className="title-wrapper">
-              <h3 className="title3">
-                <a href="#" className="card-title">
-                  Butternut Pumpkin
-                </a>
-              </h3>
-              <span className="span title-2">$10.00</span>
+          </li>
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={redlentil} width={100} height={100} alt="red lentil"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                      Red Lentil
+                    </a>
+                  </h3>
+                  <span className="span title-2">$14.00</span>
+                </div>
+                <p className="card-text label-1">
+                Cooked with ethiopian spice includes onion, tomato, garlic
+                and ginger.
+                </p>
+              </div>
             </div>
-            <p className="card-text label-1">
-              Typesetting industry lorem Lorem Ipsum is simply dummy text of the
-              priand.
-            </p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div
-          className="menu-card>
-
-          
-
-          <div>
-
-            
-
-           
-
-          </div>
-
-        </div>
-      </li>
-
-      <li>
-        <div class="
-          menu-card=""
-        >
-          <div>
-            <div className="title-wrapper">
-              <h3 className="title-3">
-                <a href="#" className="card-title">
-                  Olivas Rellenas
-                </a>
-              </h3>
-              <span className="span title-2">$25.00</span>
+          </li>
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={Pastaham} width={100} height={100} alt="Spaghetti Meatball"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                    Spaghetti Meatball
+                    </a>
+                  </h3>
+                  
+                  <span className="span title-2">$15.00</span>
+                </div>
+                <p className="card-text label-1">
+                Fresh pomodoro sauce, olive-oil, rosemary meatballs
+                garnished with parmesan cheese
+                </p>
+              </div>
             </div>
-            <p className="card-text label-1">
-              Avocados with crab meat, red onion, crab salad stuffed red bell
-              pepper and green bell pepper.
-            </p>
-          </div>
-        </div>
-      </li>
-      <li></li>
-    </ul>
-    <p className="menu-text text-center">
-    During winter daily from <span className="span">7:00 pm</span> to{" "}
-    <span className="span">9:00 pm</span>
-  </p>
-  <a href="#" className="btn btn-primary">
-    <span className="text text-1">View All Menu</span>
-    <span className="text text-2" aria-hidden="true">
-      View All Menu
-    </span>
-  </a>
-  <img
-    src="./assets/images/shape-5.png"
-    width={921}
-    height={1036}
-    loading="lazy"
-    alt="shape"
-    className="shape shape-2 move-anim"
-  />
-  <img
-    src="./assets/images/shape-6.png"
-    width={343}
-    height={345}
-    loading="lazy"
-    alt="shape"
-    className="shape shape-3 move-anim"
-  />
-  </div>
-</section>
+          </li>
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={Mushroombites} width={100} height={100} alt="Mushroom Bites"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                      Mushroom Bites
+                    </a>
+                  </h3>
+                  <span className="span title-2">$14.00</span>
+                </div>
+                <p className="card-text label-1">
+                  Ethiopian spice includes onion ,tomato, garlic, and ginger
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="menu-card hover:card">
+              <figure className="card-banner img-holder">
+              <div className="img-cover">
+         <Image src={CaeserSalad} width={100} height={100} alt="Caeser Salad"/>
+                </div>
+              </figure>
+              <div>
+                <div className="title-wrapper">
+                  <h3 className="title-3">
+                    <a href="#" className="card-title">
+                       Caeser Salad
+                    </a>
+                  </h3>
+                  <span className="span title-2">$9.00</span>
+                </div>
+                <p className="card-text label-1">
+                  salad with Romain, croton, shaved parmesan cheese
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p className="menu-text text-center">
+          During winter daily from <span className="span">7:00 pm</span> to{" "}
+          <span className="span">9:00 pm</span>
+        </p>
+        <a href="#" className="btn btn-primary">
+          <span className="text text-1">View All Menu</span>
+          <span className="text text-2" aria-hidden="true">
+            View All Menu
+          </span>
+        </a>
+       
+      </div>
+    </section>
+    
 
     )
 }

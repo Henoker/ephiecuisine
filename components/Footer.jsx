@@ -108,7 +108,7 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <a href="https://www.google.com/maps/place/488+Mowry+Ave,+Fremont,+CA+94536,+USA/@37.567482,-121.9743387,17z/data=!3m1!4b1!4m5!3m4!1s0x808fc060ef6cb825:0x7aa610fe6802b389!8m2!3d37.567482!4d-121.97215" className="label-2 footer-link hover-underline">
             Google Map
           </a>
         </li>

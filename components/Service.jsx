@@ -1,6 +1,6 @@
 import Image from "next/image";
 import service2 from "../public/images/toffuethio.png";
-import service3 from "../public/images/garlicappet.jpg";
+import service3 from "../public/images/Ephiegarlic.jpg";
 import service4 from "../public/images/wine.jpg";
 
 export default function Service() {
