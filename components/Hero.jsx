@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Heroslide1 from "../public/images/Meatcombo.png";
-import Heroslide2 from "../public/images/hero-slider-2.jpg";
-import Heroslide3 from "../public/images/hero-slider-3.jpg";
 import Heroicon from "../public/images/hero-icon.png";
 
 export default function Hero() {
