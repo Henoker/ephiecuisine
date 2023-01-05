@@ -9,7 +9,7 @@ export default function Document() {
       <body id='top'>
       <div className="preload" data-preaload>
        <div className="circle"></div>
-       <p className="text">Grilli</p>
+       <p className="text">EPHIE CUISINE</p>
         </div>
         <Main />
         <NextScript />

@@ -1,16 +1,16 @@
-import logo from "../public/images/logo.svg";
+import logo from "../public/images/logo.png";
 import Image from 'next/image'
 
 export default function Footer() {
     return (
         <footer
   className="footer section has-bg-image text-center"
-  style={{ backgroundImage: 'url("images/footer-bg.jpg")' }}
+  style={{ backgroundImage: 'url("images/footerbasketreal.JPG")' }}
 >
   <div className="container">
     <div className="footer-top grid-list">
       <div className="footer-brand has-before has-after"
-      style={{ backgroundImage: 'url("images/footer-form-bg.png")' }}
+      style={{ backgroundImage: 'url("images/footer-bg-mine1.png")' }}
       >
         <a href="#" className="logo">
         <Image src={logo} width={160} height={50} alt="Grilli - Home" />
@@ -25,31 +25,30 @@ export default function Footer() {
         <address className="body-4">
           488 Mowry Ave Fremont, CA 94536
         </address>
-        <a href="mailto:booking@grilli.com" className="body-4 contact-link">
-          booking@grilli.com
+        <a href="mailto:ephesonbeyene@gmail.com" className="body-4 contact-link">
+        ephesonbeyene@gmail.com
         </a>
-        <a href="tel:+88123123456" className="body-4 contact-link">
+        <a href="tel:+1 510-894-1894" className="body-4 contact-link">
           Booking Request :  +1 510-894-1894
         </a>
-        <p className="body-4">Open : 09:00 am - 01:00 pm</p>
+        <p className="body-4">Open : 11:00 am - 8:00 pm</p>
         <div className="wrapper">
           <div className="separator" />
           <div className="separator" />
           <div className="separator" />
         </div>
-        <p className="title-1">Get News &amp; Offers</p>
+        <p className="title-1">Learn the secret Of our cooking</p>
         <p className="label-1">
-          Subscribe us &amp; Get <span className="span">25% Off.</span>
+          Subscribe to our; <span className="span">youtube channel.</span>
         </p>
         <form action="" className="input-wrapper">
           <div className="icon-wrapper">
-            <ion-icon name="mail-outline" aria-hidden="true" />
             <input
               type="email"
               name="email_address"
-              placeholder="Your email"
               autoComplete="off"
               className="input-field"
+              disabled
             />
           </div>
           <button type="submit" className="btn btn-secondary">
@@ -117,14 +116,7 @@ export default function Footer() {
     </div>
     <div className="footer-bottom">
       <p className="copyright">
-        © 2022 Grilli. All Rights Reserved | Crafted by{" "}
-        <a
-          href="https://github.com/codewithsadee"
-          target="_blank"
-          className="link"
-        >
-          codewithsadee
-        </a>
+        © 2022 EphieCuisine All Rights Reserved |         
       </p>
     </div>
   </div>

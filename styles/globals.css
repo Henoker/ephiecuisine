@@ -1,3 +1,5 @@
+
+
 /*-----------------------------------*\
   #index.css
 \*-----------------------------------*/
@@ -332,7 +334,7 @@ body.nav-active { overflow: hidden; }
 
 .btn {
   position: relative;
-  color: var(--gold-crayola);
+  color: var(--white);
   font-size: var(--fontSize-label-2);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
@@ -783,7 +785,7 @@ body.nav-active { overflow: hidden; }
 .hero {
   position: relative;
   padding-block: 120px;
-  min-height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
   z-index: 1;
 }
@@ -841,7 +843,7 @@ body.nav-active { overflow: hidden; }
   bottom: 15px;
   right: 15px;
   z-index: 2;
-  background-color: var(--gold-crayola);
+  background-color: var(--black);
   width: 110px;
   height: 110px;
   padding: 12px;
@@ -854,7 +856,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero-btn .span {
-  color: var(--black);
+  color: var(--white);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-1);
@@ -922,7 +924,7 @@ body.nav-active { overflow: hidden; }
   transform: translateX(-50%);
   width: 140px;
   height: 100%;
-  /* background-image: url('../images/img-pattern.svg'); */
+  background-image: url('/images/hoteladobe.svg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -951,7 +953,10 @@ body.nav-active { overflow: hidden; }
   #ABOUT
 \*-----------------------------------*/
 
-.about .section-text { margin-block: 15px 30px; }
+.about .section-text { 
+  margin-block: 10px 20px; 
+  
+}
 
 .about .btn {
   margin-inline: auto;
@@ -1377,7 +1382,7 @@ textarea.input-field {
 }
 
 .footer-link {
-  color: var(--quick-silver);
+  color: white;
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-4);
@@ -1388,7 +1393,7 @@ textarea.input-field {
 .footer-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
 
 .copyright {
-  color: var(--quick-silver);
+  color: white;
   line-height: var(--lineHeight-3);
 }
 

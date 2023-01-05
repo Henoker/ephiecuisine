@@ -10,7 +10,7 @@ export default function Hero() {
       <ul className="hero-slider" data-hero-slider="">
         <li className="slider-item active" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide1} width={3111} height={3111} alt="Grilli - Home" />
+          <Image src={Heroslide1} alt="hero" width={2048} height={2048} />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             Tradational &amp; Hygine
@@ -31,7 +31,7 @@ export default function Hero() {
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide1} width={1880} height={950} alt="" />
+          <Image src={Heroslide1} width={1280} height={1650} alt="" />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             delightful experience
@@ -52,7 +52,7 @@ export default function Hero() {
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
-          <Image src={Heroslide1} width={1880} height={950} alt="" />
+          <Image src={Heroslide1} width={1380} height={750} alt="" />
             {/* <img
               src="./assets/images/hero-slider-3.jpg"
               width={1880}

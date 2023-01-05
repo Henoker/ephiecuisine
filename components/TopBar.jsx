@@ -16,7 +16,7 @@ export default function TopBar() {
             <div className="icon">
               <ion-icon name="time-outline" aria-hidden="true" />
             </div>
-            <span className="span">Daily : 8.00 am to 10.00 pm</span>
+            <span className="span">Daily : 11.00 am to 10.00 pm</span>
           </div>
           <a href="tel: +1 510-894-1894" className="topbar-item link">
             <div className="icon">
@@ -25,11 +25,11 @@ export default function TopBar() {
             <span className="span">+1 510-894-1894</span>
           </a>
           <div className="separator" />
-          <a href="mailto:booking@restaurant.com" className="topbar-item link">
+          <a href="mailto:ephesonbeyene@gmail.com" className="topbar-item link">
             <div className="icon">
               <ion-icon name="mail-outline" aria-hidden="true" />
             </div>
-            <span className="span">booking@restaurant.com</span>
+            <span className="span">ephesonbeyene@gmail.com</span>
           </a>
         </div>
       </div>
