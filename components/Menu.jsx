@@ -152,10 +152,10 @@ export default function Menu() {
           </li>
         </ul>
         <p className="menu-text text-center">
-          During winter daily from <span className="span">7:00 pm</span> to{" "}
-          <span className="span">9:00 pm</span>
+          Open daily from <span className="span">10:00 am</span> to{" "}
+          <span className="span">10:00 pm</span>
         </p>
-        <a href="#" className="btn btn-primary">
+        <a href="Menu.pdf" download="Menu.PDF" className="btn btn-primary">
           <span className="text text-1">View All Menu</span>
           <span className="text text-2" aria-hidden="true">
             View All Menu

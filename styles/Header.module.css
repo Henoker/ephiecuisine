@@ -1,0 +1,179 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding-block: 10px;
+    z-index: 4;
+    border-block-end: 1px solid transparent;
+    transition: var(--transition-1);
+}
+
+.header .container {
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    max-width: max-content;
+    margin-inline: auto;
+    margin-block-end: 60px;
+}
+
+.logo>span {
+    color: hsl(342, 45%, 48%);
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;   
+}
+
+.logo>span>span {
+    color: hsl(164, 100%, 30%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Raleway;
+    background-color: white;
+    font-weight: 600;
+    padding: 0 1rem;
+    border-radius: 8%;
+}
+
+.navbar a{
+    color: white;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid hsl(342, 45%, 48%);;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.navbar a:hover{
+    color: white;
+    background: var(--btn-color);
+    border: 1px solid white;
+}
+
+
+.rightSide {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:hsl(342, 45%, 48%);
+    
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navitem {
+    margin-left: 5rem;
+}
+
+.navlink{
+    cursor: pointer;
+    color: #475569;
+    text-transform: uppercase;
+    
+}
+
+.navlink:hover{
+    color: var(--themeRed);
+}
+
+.navlogo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: var(--themeRed);
+}
+
+.rightSide {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .navmenu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        list-style: none;
+        flex-direction: column;
+        background-color:hsl(342, 45%, 48%);
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .navbar a:hover{
+        color: black;
+    }
+
+    .navmenu.active {
+        left: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navitem {
+        margin: 2.5rem 0;
+    }
+
+    .logo>span {
+        display: none;
+    }
+
+    .hamburger {
+        padding: 12px;
+        padding-inline-end: 0;
+        cursor: pointer;
+        /* background-color: #F1EDFF; */
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}

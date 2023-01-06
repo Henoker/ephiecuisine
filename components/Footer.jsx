@@ -10,17 +10,11 @@ export default function Footer() {
   <div className="container">
     <div className="footer-top grid-list">
       <div className="footer-brand has-before has-after"
-      style={{ backgroundImage: 'url("images/footer-bg-mine1.png")' }}
-      >
+         style={{ backgroundImage: 'url("images/footer-bg-mine1.png")' }}
+        >
         <a href="#" className="logo">
         <Image src={logo} width={160} height={50} alt="Grilli - Home" />
-          {/* <img
-            src="./assets/images/logo.svg"
-            width={160}
-            height={50}
-            loading="lazy"
-            alt="grilli home"
-          /> */}
+         
         </a>
         <address className="body-4">
           488 Mowry Ave Fremont, CA 94536
@@ -41,7 +35,7 @@ export default function Footer() {
         <p className="label-1">
           Subscribe to our; <span className="span">youtube channel.</span>
         </p>
-        <form action="" className="input-wrapper">
+        {/* <form action="" className="input-wrapper">
           <div className="icon-wrapper">
             <input
               type="email"
@@ -50,14 +44,9 @@ export default function Footer() {
               className="input-field"
               disabled
             />
-          </div>
-          <button type="submit" className="btn btn-secondary">
-            <span className="text text-1">Subscribe</span>
-            <span className="text text-2" aria-hidden="true">
-              Subscribe
-            </span>
-          </button>
-        </form>
+          </div> */}
+         
+        {/* </form> */}
       </div>
       <ul className="footer-list">
         <li>
@@ -103,7 +92,7 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <a href="https://www.youtube.com/@EphieBrettKitchen" className="label-2 footer-link hover-underline">
             Youtube
           </a>
         </li>

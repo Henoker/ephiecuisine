@@ -25,7 +25,7 @@ export default function Service() {
     style={{ width: 285, height: 286 }}
   >
     <div className="img-cover">
-      <Image src={service2} width={285} height={836} object-Fit="cover" alt="appetizers"/>
+      <Image src={service2} width={285} height={836} object-fit="cover" alt="appetizers"/>
     </div>
   </figure>
 </a>

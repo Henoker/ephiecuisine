@@ -1,9 +1,15 @@
 import Image from 'next/image'
 import logo from "../public/images/logo.png";
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+ 
+  
     return (
-        <header className="header" data-header="">
+      
+        <header className="header" data-header>
   <div className="container">
     <div href="#" className="logo">
     <Image src={logo} width={100} height={50} alt="Grilli - Home" />
@@ -11,8 +17,9 @@ export default function Header() {
     <h1 className='logo-header'>EPHIE<span>CUISINE</span></h1>
 
     
-    <nav className="navbar" data-navbar="">
-      <button className="close-btn" aria-label="close menu" data-nav-toggler="">
+    <nav className={`navbar ${isOpen ? '' : 'open'}`} data-navbar>
+      <button className="close-btn" aria-label="close menu" data-nav-toggler 
+      onClick={() => setIsOpen(!isOpen)}>
         <ion-icon name="close-outline" aria-hidden="true" />
       </button>
       <a href="#" className="logo">
@@ -55,22 +62,23 @@ export default function Header() {
       <div className="text-center">
         <p className="headline-1 navbar-title">Visit Us</p>
         <address className="body-4">
-          Restaurant St, Delicious City, <br />
-          London 9578, UK
+        488 Mowry Ave  <br />
+        Fremont, CA 94536
         </address>
-        <p className="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
-        <a href="mailto:booking@grilli.com" className="body-4 sidebar-link">
-          booking@grilli.com
+        <p className="body-4 navbar-text">Open: 10.00 am - 8.30pm</p>
+        <a href="mailto:ephesonbeyene@gmail.com" className="body-4 sidebar-link">
+        ephesonbeyene@gmail.com
         </a>
         <div className="separator" />
         <p className="contact-label">Booking Request</p>
         <a
-          href="tel:+88123123456"
+          href="tel:+1 510-894-1894"
           className="body-1 contact-number hover-underline"
         >
-          +88-123-123456
+          +1 510-894-1894
         </a>
       </div>
+
     </nav>
     <a href="#" className="btn btn-secondary">
       <span className="text text-1">Find A Table</span>
@@ -78,12 +86,15 @@ export default function Header() {
         Find A Table
       </span>
     </a>
-    <button className="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+    <button className="nav-open-btn" aria-label="open menu" data-nav-toggler
+      onClick={() => setIsOpen(!isOpen)}>
       <span className="line line-1" />
       <span className="line line-2" />
       <span className="line line-3" />
     </button>
-    <div className="overlay" data-nav-toggler="" data-overlay="" />
+    <div className="overlay"  data-nav-toggler data-overlay 
+    style={{ display: isOpen ? 'none' : 'block' }}
+    onClick={() => setIsOpen(true)}/>
   </div>
 </header>
     )

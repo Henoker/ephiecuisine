@@ -4,9 +4,6 @@
   #index.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
 
 
 
@@ -688,7 +685,8 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 60px;
 }
 .logo-header {
-  color: hsl(342, 45%, 48%);
+  /* color: hsl(342, 45%, 48%); */
+  display: none;
 }
 
 .logo-header>span {
@@ -1955,6 +1953,7 @@ textarea.input-field {
    * HEADER
    */
 
+ 
   .nav-open-btn,
   .navbar > *:not(.navbar-list),
   .header .overlay { display: none; }
