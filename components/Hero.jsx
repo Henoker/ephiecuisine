@@ -51,13 +51,6 @@ export default function Hero() {
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
           <Image src={Heroslide1} width={1380} height={750} alt="" />
-            {/* <img
-              src="./assets/images/hero-slider-3.jpg"
-              width={1880}
-              height={950}
-              alt=""
-              className="img-cover"
-            /> */}
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             amazing &amp; delicious

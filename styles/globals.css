@@ -319,6 +319,7 @@ body.nav-active { overflow: hidden; }
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-2);
   margin-block-end: 12px;
+  padding-top: 40px;
 }
 
 .section-subtitle::after {
@@ -716,6 +717,7 @@ nav{
   flex-direction: column;
   row-gap: 6px;
   cursor: pointer;
+ 
 }
 .nav__menu-bar div{
   width: 40px;
@@ -734,7 +736,7 @@ nav{
   padding: 24px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: transparent;
+  background-color: black;
 }
 .nav__menu-list.active{
   right: 0;
@@ -742,7 +744,16 @@ nav{
 .nav__link{
   font-size: 18px; 
   position: relative;
-  transition: all 0.2s;
+  transition: all 0.2s;  
+}
+
+.nav__link .separator {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(45deg);
+  opacity: 0;
+  transition: var(--transition-1);
 }
 
 .nav__link:hover{
@@ -755,33 +766,7 @@ nav{
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
-  .nav__menu-bar{
-    display: none;
-  }
-  .nav__menu-list{
-    position: unset;
-    flex-direction: row;
-    min-height: fit-content;
-    width: fit-content;
-    column-gap: 24px;
-    align-items: center;
-  }
-  .nav__link::before{
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 6px;
-    bottom: -16px;
-    left: 0;
-    background-color: black;
-    transition: all 0.2s;
-  }
-  
-  .nav__link:hover:before{
-   width: 100%;
-  }
-}
+
 
 .navbar-item { border-block-start: 1px solid var(--white-alpha-20); }
 
@@ -910,7 +895,10 @@ nav{
   100% { transform: scale(1.15); }
 }
 
-.hero .section-subtitle::after { margin-block: 14px 20px; }
+.hero .section-subtitle::after { 
+  margin-block: 4px 20px; 
+  
+}
 
 .hero-text { margin-block: 10px 40px; }
 
@@ -926,6 +914,7 @@ nav{
   height: 110px;
   padding: 12px;
   transform: scale(0.6);
+  display: none;
 }
 
 .hero-btn img {
@@ -1652,13 +1641,22 @@ textarea.input-field {
    * ABOUT
    */
 
-  .about .container { gap: 80px; }
+  .about .container { 
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
 
   .about-banner > .w-100 { padding-inline-start: 90px; }
 
   .about .abs-img-1 { width: 285px; }
 
   .about .contact-number { --fontSize-body-1: 2.4rem; }
+
+  
 
 
 
@@ -1753,7 +1751,35 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+ 
+  .nav__menu-bar{
+      display: none;
+    }
+  .nav__menu-list{
+      position: unset;
+      flex-direction: row;
+      min-height: fit-content;
+      width: fit-content;
+      column-gap: 24px;
+      align-items: center;
+      background-color: transparent;
 
+    }
+    .nav__link::before{
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 6px;
+      bottom: -16px;
+      left: 0;
+      background-color: black;
+      transition: all 0.2s;
+    }
+    
+    .nav__link:hover:before{
+     width: 100%;
+    }
+  
 
   /**
    * HEADER
@@ -2115,6 +2141,17 @@ textarea.input-field {
    */
 
   .about { padding-block: 170px 100px; }
+  .about .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .about .section-text { 
+    margin-block: 10px 20px;
+  }
 
 
 

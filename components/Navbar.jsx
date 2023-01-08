@@ -6,8 +6,8 @@ import NavItem from "./NavItem";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "About Us", href: "#" },
-  { text: "Contact", href: "#" },
+  { text: "About Us", href: "#about" },
+  { text: "Our Menu", href: "#menu" },
 ];
 
 export default function Navbar() {
@@ -38,6 +38,7 @@ export default function Navbar() {
               }}
               key={menu.text}
             >
+              <div className="separator" />
               <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
