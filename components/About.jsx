@@ -15,7 +15,7 @@ export default function About() {
       <p className="label-2 section-subtitle" id="about-label">
         Our Story
       </p>
-      <h2 className="headline-1 section-title">Every Sauce Tells a Story</h2>
+      <h2 className="headline-1 section-title">Food for Thought</h2>
       <p className="section-text">
         Founded in 2020, EPHIE CUISINE provides a mix of authentic Ethiopian, Eritrean and Italian dishes
         and caters to all kinds of dietary preferences which include; exotic, vegan, meat lovers, vegetarian, 
@@ -30,17 +30,17 @@ export default function About() {
       >
         +1 510-894-1894
       </a>
-      <a href="#" className="btn btn-primary">
+      {/* <a href="#" className="btn btn-primary">
         <span className="text text-1">Read More</span>
         <span className="text text-2" aria-hidden="true">
           Read More
         </span>
-      </a>
+      </a> */}
     </div>
     <figure className="about-banner">
         <div className="w-100">
         <Image src={restview} width={570}
-        height={570} alt="about banner"/>
+        height={570} layout="responsive" alt="about banner"/>
         </div>
         
       {/* <img
@@ -60,26 +60,8 @@ export default function About() {
       >
          
         <Image src={cert} width={285}
-        height={285} alt=""/>
-        
-        {/* <img
-          src="./assets/images/about-abs-image.jpg"
-          width={285}
-          height={285}
-          loading="lazy"
-          alt=""
-          className="w-100"
-        /> */}
+        height={285} alt="" layout="responsive"/>
       </div>
-      {/* <div className="abs-img abs-img-2 has-before">
-        <img
-          src="./assets/images/badge-2.png"
-          width={133}
-          height={134}
-          loading="lazy"
-          alt=""
-        />
-      </div> */}
     </figure>
     <div className="shape">
     <Image src={shape3} width={197} height={194} alt=""/>

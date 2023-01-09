@@ -18,7 +18,7 @@ export default function Navbar() {
       <nav className={`nav`}>
         <Link href={"/"} legacyBehavior>
           <a>
-          <Image src={logo} width={60} height={50} alt="EPHIE - Cuisine" />
+          <Image src={logo} width={50} height={50} alt="EPHIE - Cuisine" />
           </a>
         </Link>
         <div
