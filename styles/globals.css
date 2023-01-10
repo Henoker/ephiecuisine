@@ -49,7 +49,7 @@
 
   /* font-family */
   --fontFamily-forum: 'Forum', cursive;
-  --fontFamily-dm_sans: 'DM Sans', sans-serif;
+  --fontFamily-dm_sans: 'DM Sans', raleway;
 
   /* font-size */
   --fontSize-display-1: calc(1.3rem + 6.7vw);
@@ -851,6 +851,12 @@ nav{
   max-height: 100vh;
   overflow: hidden;
   z-index: 1;
+}
+
+.hero-title {
+  background-color: var(--black-alpha-15);
+  
+  
 }
 
 .hero .slider-item {

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Heroslide1 from "../public/images/Meatcombo.png";
+import Heroslide2 from "../public/images/veggieCombofull.png";
+import Heroslide3 from "../public/images/MushroomTibes.jpg";
 import Heroicon from "../public/images/hero-icon.png";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -8,7 +11,7 @@ export default function Hero() {
       <ul className="hero-slider" data-hero-slider="">
         <li className="slider-item active" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide1} alt="hero" width={2048} height={2048} />
+          <Image src={Heroslide1} alt="hero" width={2048} height={2048} layout="responsive" />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             Tradational &amp; Hygine
@@ -20,16 +23,19 @@ export default function Hero() {
           <p className="body-2 hero-text slider-reveal">
             Come with family &amp; feel the joy of mouthwatering food
           </p>
-          <a href="#" className="btn btn-primary slider-reveal">
-            <span className="text text-1">View Our Menu</span>
+          <Link href="#menu" className="btn btn-primary slider-reveal">
+          <span className="text text-1">View Our Menu</span>
             <span className="text text-2" aria-hidden="true">
               View Our Menu
             </span>
-          </a>
+          </Link >
+          {/* <a href="#" className="btn btn-primary slider-reveal">
+           
+          </a> */}
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide1} width={1280} height={1650} alt="" />
+          <Image src={Heroslide2} width={2048} height={2048} alt="" layout="responsive" />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             delightful experience
@@ -50,7 +56,7 @@ export default function Hero() {
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
-          <Image src={Heroslide1} width={1380} height={750} alt="" />
+          <Image src={Heroslide3} width={2048} height={2048} alt="" layout="responsive" />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             amazing &amp; delicious

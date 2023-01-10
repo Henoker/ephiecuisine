@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cert from "../public/images/Certificate.png";
+import cert from "../public/images/cert1.png";
 import restview from '../public/images/ephierestaurant.jpg';
 import shape3 from "../public/images/shape-3.png";
 
@@ -43,16 +43,7 @@ export default function About() {
         height={570} layout="responsive" alt="about banner"/>
         </div>
         
-      {/* <img
-        src="./assets/images/about-banner.jpg"
-        width={570}
-        height={570}
-        loading="lazy"
-        alt="about banner"
-        className="w-100"
-        data-parallax-item=""
-        data-parallax-speed={1}
-      /> */}
+      
       <div
         className="abs-img abs-img-1 has-before"
         data-parallax-item=""
