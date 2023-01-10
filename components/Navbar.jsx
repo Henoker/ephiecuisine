@@ -8,6 +8,7 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "#about" },
   { text: "Our Menu", href: "#menu" },
+  { text: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {

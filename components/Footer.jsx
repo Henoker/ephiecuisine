@@ -1,5 +1,6 @@
 import logo from "../public/images/logo.png";
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -12,10 +13,10 @@ export default function Footer() {
       <div className="footer-brand has-before has-after"
          style={{ backgroundImage: 'url("images/footer-bg-mine1.png")' }}
         >
-        <a href="#" className="logo">
+        <Link href="#home" className="logo">
         <Image src={logo} width={160} height={50} alt="Grilli - Home" />
          
-        </a>
+        </Link>
         <address className="body-4">
           488 Mowry Ave Fremont, CA 94536
         </address>
@@ -33,47 +34,34 @@ export default function Footer() {
         </div>
         <p className="title-1">Learn the secret Of our cooking</p>
         <p className="label-1">
-          Subscribe to our; <span className="span">youtube channel.</span>
-        </p>
-        {/* <form action="" className="input-wrapper">
-          <div className="icon-wrapper">
-            <input
-              type="email"
-              name="email_address"
-              autoComplete="off"
-              className="input-field"
-              disabled
-            />
-          </div> */}
+          Subscribe to our; 
+          
+       <Link href="https://www.youtube.com/@EphieBrettKitchen">
+        <span className="span">
+        Youtube channel
+        </span> 
+        </Link> 
          
-        {/* </form> */}
+        </p>
+        
       </div>
       <ul className="footer-list">
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <Link href="#home" className="label-2 footer-link hover-underline">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <Link href="#menu" className="label-2 footer-link hover-underline">
             Menus
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <Link href="#about" className="label-2 footer-link hover-underline">
             About Us
-          </a>
+          </Link>
         </li>
-        <li>
-          <a href="#" className="label-2 footer-link hover-underline">
-            Our Chefs
-          </a>
-        </li>
-        <li>
-          <a href="#" className="label-2 footer-link hover-underline">
-            Contact
-          </a>
-        </li>
+        
       </ul>
       <ul className="footer-list">
         <li>

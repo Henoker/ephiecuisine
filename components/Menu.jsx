@@ -5,6 +5,7 @@ import redlentil from "../public/images/redlentil.png";
 import Pastaham from "../public/images/pastaham.png";
 import Mushroombites from "../public/images/MushroomTibes.jpg";
 import CaeserSalad from "../public/images/CaeserSalad.jpg";
+import shape from "../public/images/shape61.png";
 
 
 export default function Menu() {
@@ -161,6 +162,8 @@ export default function Menu() {
             View All Menu
           </span>
         </a>
+
+        <Image className="shape shape-3 move-anim" src={shape} alt="shape"/>
        
       </div>
     </section>

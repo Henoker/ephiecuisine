@@ -2,6 +2,7 @@ import Image from "next/image";
 import service2 from "../public/images/toffuethio.png";
 import service3 from "../public/images/Ephiegarlic.jpg";
 import service4 from "../public/images/wine.jpg";
+import shape from "../public/images/shape62.png";
 
 export default function Service() {
     return (
@@ -101,6 +102,7 @@ export default function Service() {
         alt="shape"
         className="shape shape-2 move-anim"
       /> */}
+         <Image className="shape shape-1 move-anim" src={shape} alt="shape"/>
     </div>
   </section>
     )

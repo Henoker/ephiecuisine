@@ -21,7 +21,7 @@ export default function Hero() {
             delicious food
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come with family &amp; feel the joy of mouthwatering food
+            Come &amp; feel the joy of our mouthwatering food
           </p>
           <Link href="#menu" className="btn btn-primary slider-reveal">
           <span className="text text-1">View Our Menu</span>
@@ -66,7 +66,7 @@ export default function Hero() {
             tells a story
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come with family &amp; feel the joy of mouthwatering food
+            Come &amp; feel the joy of our mouthwatering food
           </p>
           <a href="#" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>

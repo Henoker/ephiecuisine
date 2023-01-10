@@ -5,7 +5,7 @@ export default function SpecialDish() {
         <section className="special-dish text-center" aria-labelledby="dish-label">
   <div className="special-dish-banner">
     <div className="img-cover">
-         <Image src={specialdishbanner} width={940} height={900} alt="special dish" layout="responsive"/>
+         <Image src={specialdishbanner} alt="special dish" layout="responsive"/>
     </div>
     
    
