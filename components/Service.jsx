@@ -2,7 +2,7 @@ import Image from "next/image";
 import service2 from "../public/images/toffuethio.png";
 import service3 from "../public/images/Ephiegarlic.jpg";
 import service4 from "../public/images/wine.jpg";
-import shape from "../public/images/shape62.png";
+import shape from "../public/images/tiletc.png";
 
 export default function Service() {
     return (

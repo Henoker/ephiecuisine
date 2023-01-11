@@ -1,5 +1,7 @@
 import Image from "next/image";
 import specialdishbanner from "../public/images/veggieCombofull.png";
+import badge from "../public/images/tiletc5.png";
+
 export default function SpecialDish() {
     return (
         <section className="special-dish text-center" aria-labelledby="dish-label">
@@ -12,6 +14,7 @@ export default function SpecialDish() {
   </div>
   <div className="special-dish-content bg-black-10">
     <div className="container">
+    <Image className="abs-img" src={badge} alt="badge"/>
      <p className="section-subtitle label-2">Special Dish</p>
       <h2 className="headline-1 section-title">Veggie Combo</h2>
       <p className="section-text">

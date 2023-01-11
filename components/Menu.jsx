@@ -5,7 +5,7 @@ import redlentil from "../public/images/redlentil.png";
 import Pastaham from "../public/images/pastaham.png";
 import Mushroombites from "../public/images/MushroomTibes.jpg";
 import CaeserSalad from "../public/images/CaeserSalad.jpg";
-import shape from "../public/images/shape61.png";
+import shape from "../public/images/kettleart.png";
 
 
 export default function Menu() {

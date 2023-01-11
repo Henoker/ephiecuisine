@@ -61,7 +61,11 @@ export default function Footer() {
             About Us
           </Link>
         </li>
-        
+        <li>
+          <Link href="#contact" className="label-2 footer-link hover-underline">
+           Contact
+          </Link>
+        </li>
       </ul>
       <ul className="footer-list">
         <li>
