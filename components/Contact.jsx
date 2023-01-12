@@ -1,9 +1,25 @@
+import { useForm } from "react-hook-form";
+
+
 export default function Contact() {
+  const {register, handleSubmit, reset, formState:{errors}} = useForm()
+
+  function submitHandler(data){
+    console.log(data)
+    fetch("/api/contact", {
+      method: 'POST',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    reset()
+  }
     return (
         <section className="reservation" id="contact">
   <div className="container">
     <div className="form reservation-form bg-black-10">
-      <form action="" className="form-left">
+      <form onSubmit={handleSubmit(submitHandler)}  className="form-left">
         <h2 className="headline-1 text-center">Online Reservation</h2>
         <p className="form-text text-center">
           Booking request{" "}
@@ -19,16 +35,20 @@ export default function Contact() {
             placeholder="Your Name"
             autoComplete="off"
             className="input-field"
+            {...register('Name', {required: 'Please Enter Name'})}
           />
+          {errors.Name && errors.Name.message}
           <input
-            type="tel"
-            name="phone"
-            placeholder="Phone Number"
+            type="email"
+            name="email"
+            placeholder="Email"
             autoComplete="off"
             className="input-field"
+            {...register('Email', {required: 'Please enter valid email'})}
           />
         </div>
-        <div className="input-wrapper">
+        {errors.Email && errors.Email.message}
+        {/* <div className="input-wrapper">
           <div className="icon-wrapper">
             <ion-icon name="person-outline" aria-hidden="true" />
             <select name="person" className="input-field">
@@ -72,14 +92,15 @@ export default function Contact() {
             </select>
             <ion-icon name="chevron-down" aria-hidden="true" />
           </div>
-        </div>
+        </div> */}
         <textarea
           name="message"
           placeholder="Message"
           autoComplete="off"
           className="input-field"
-          defaultValue={""}
+          {...register('Message', {required: 'Please enter booking details'})}
         />
+        {errors.Message && errors.Message.message}
         <button type="submit" className="btn btn-secondary">
           <span className="text text-1">Book A Table</span>
           <span className="text text-2" aria-hidden="true">
