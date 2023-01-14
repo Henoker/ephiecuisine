@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 
 export default function Contact() {
@@ -13,7 +14,9 @@ export default function Contact() {
         'Content-Type': 'application/json'
       }
     })
+    toast('Thank you! Your Booking is Registered', { hideProgressBar: true, autoClose: 2000, type: 'success', theme: "dark", position: "bottom-center" })
     reset()
+    
   }
     return (
         <section className="reservation" id="contact">
@@ -37,7 +40,8 @@ export default function Contact() {
             className="input-field"
             {...register('Name', {required: 'Please Enter Name'})}
           />
-          {errors.Name && errors.Name.message}
+         {errors.Name && errors.Name.message}
+          
           <input
             type="email"
             name="email"

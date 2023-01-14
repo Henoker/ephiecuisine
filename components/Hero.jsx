@@ -18,10 +18,10 @@ export default function Hero() {
           </p>
           <h1 className="display-1 hero-title slider-reveal">
             For the love of <br />
-            delicious food
+            healthy food
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come &amp; feel the joy of our mouthwatering food
+            Come &amp; feel the joy of Ethiopian food
           </p>
           <Link href="#menu" className="btn btn-primary slider-reveal">
           <span className="text text-1">View Our Menu</span>
@@ -41,11 +41,10 @@ export default function Hero() {
             delightful experience
           </p>
           <h1 className="display-1 hero-title slider-reveal">
-            Flavors Inspired by <br />
-            the Seasons
+            Eat Tasty Eat Healthy
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come with family &amp; feel the joy of mouthwatering food
+            Food for your senses
           </p>
           <a href="#" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>
@@ -62,11 +61,11 @@ export default function Hero() {
             amazing &amp; delicious
           </p>
           <h1 className="display-1 hero-title slider-reveal">
-            Where every flavor <br />
+            Where every spice <br />
             tells a story
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come &amp; feel the joy of our mouthwatering food
+            Enjoy our gluten-free foods
           </p>
           <a href="#" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>
