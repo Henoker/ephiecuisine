@@ -29,7 +29,7 @@ export default function TopBar() {
             <div className="icon">
               <ion-icon name="mail-outline" aria-hidden="true" />
             </div>
-            <span className="span">ephesonbeyene@gmail.com</span>
+            <span className="span">ephieethiopiankitchen@gmail.com</span>
           </a>
         </div>
       </div>

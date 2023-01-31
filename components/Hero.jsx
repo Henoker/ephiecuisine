@@ -8,8 +8,17 @@ import Link from "next/link";
 export default function Hero() {
     return (
     <section className="hero text-center" aria-label="home" id="home">
-      <ul className="hero-slider" data-hero-slider="">
-        <li className="slider-item active" data-hero-slider-item="">
+      <video
+					className="slider-bg"
+					src="/images/ephie2.mp4"
+					muted
+					playsInline
+					autoPlay
+					loop
+				/>
+
+      {/* <ul className="hero-slider" data-hero-slider=""> */}
+        {/* <li className="slider-item active" data-hero-slider-item="">
           <div className="slider-bg img-cover">
           <Image src={Heroslide1} alt="hero" width={2048} height={2048} layout="responsive" />
           </div>
@@ -31,7 +40,7 @@ export default function Hero() {
           </Link >
           {/* <a href="#" className="btn btn-primary slider-reveal">
            
-          </a> */}
+          </a> *
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg img-cover">
@@ -46,7 +55,7 @@ export default function Hero() {
           <p className="body-2 hero-text slider-reveal">
             Food for your senses
           </p>
-          <a href="#" className="btn btn-primary slider-reveal">
+          <a href="#menu" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>
             <span className="text text-2" aria-hidden="true">
               View Our Menu
@@ -67,7 +76,7 @@ export default function Hero() {
           <p className="body-2 hero-text slider-reveal">
             Enjoy our gluten-free foods
           </p>
-          <a href="#" className="btn btn-primary slider-reveal">
+          <a href="#menu" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>
             <span className="text text-2" aria-hidden="true">
               View Our Menu
@@ -89,10 +98,10 @@ export default function Hero() {
       >
         <ion-icon name="chevron-forward" />
       </button>
-      <a href="#" className="hero-btn has-after">
+      <a href="#menu" className="hero-btn has-after">
       <Image src={Heroicon} width={48} height={48} alt="booking icon" />
         <span className="label-2 text-center span">Book A Table</span>
-      </a>
+      </a> */}
     </section>
  
 

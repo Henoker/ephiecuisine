@@ -12,7 +12,7 @@ export default function Header() {
         <header className="header" data-header>
   <div className="container">
     <div href="#" className="logo">
-    <Image src={logo} width={100} height={50} alt="Grilli - Home" />
+    <Image src={logo} width={100} height={50} alt="Ephie - Home" />
     </div>
     <h1 className='logo-header'>EPHIE<span>CUISINE</span></h1>
 
@@ -23,7 +23,7 @@ export default function Header() {
         <ion-icon name="close-outline" aria-hidden="true" />
       </button>
       <a href="#" className="logo">
-        <Image src={logo} width={160} height={50} alt="Grilli - Home" />
+        <Image src={logo} width={160} height={50} alt="Ephie - Home" />
         
         
       </a>
@@ -66,8 +66,8 @@ export default function Header() {
         Fremont, CA 94536
         </address>
         <p className="body-4 navbar-text">Open: 10.00 am - 8.30pm</p>
-        <a href="mailto:ephesonbeyene@gmail.com" className="body-4 sidebar-link">
-        ephesonbeyene@gmail.com
+        <a href="mailto:ephieethiopiankitchen@gmail.com" className="body-4 sidebar-link">
+        ephieethiopiankitchen@gmail.com
         </a>
         <div className="separator" />
         <p className="contact-label">Booking Request</p>

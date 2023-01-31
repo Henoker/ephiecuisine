@@ -20,8 +20,8 @@ export default function Footer() {
         <address className="body-4">
           488 Mowry Ave Fremont, CA 94536
         </address>
-        <a href="mailto:ephesonbeyene@gmail.com" className="body-4 contact-link">
-        ephesonbeyene@gmail.com
+        <a href="mailto:ephieethiopiankitchen@gmail.com" className="body-4 contact-link">
+        ephieethiopiankitchen@gmail.com
         </a>
         <a href="tel:+1 510-894-1894" className="body-4 contact-link">
           Booking Request :  +1 510-894-1894
@@ -69,18 +69,18 @@ export default function Footer() {
       </ul>
       <ul className="footer-list">
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
-            Facebook
+          <a href="https://www.grubhub.com/restaurant/ephie-ethiopian-kitchen-488-mowry-ave-fremont/2377689" className="label-2 footer-link hover-underline">
+            GrubHub
           </a>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
+          <a href="https://www.instagram.com/ephiecuisine" className="label-2 footer-link hover-underline">
             Instagram
           </a>
         </li>
         <li>
-          <a href="#" className="label-2 footer-link hover-underline">
-            Twitter
+          <a href="https://www.ubereats.com/store/ephie-ethiopian-kitchen/90iRW742QPqH9tf3r3GIuw" className="label-2 footer-link hover-underline">
+            UberEats
           </a>
         </li>
         <li>

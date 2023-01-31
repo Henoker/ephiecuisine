@@ -1,23 +1,23 @@
 export default function Testimonial() {
     return (
-        <section class="section testi text-center has-bg-image"
+        <section className="section testi text-center has-bg-image"
         style={{ backgroundImage: 'url("images/injera.JPG")'}}
         aria-label="testimonials">
-        <div class="container">
+        <div className="container">
 
-          <div class="quote">”</div>
+          <div className="quote">”</div>
 
-          <p class="headline-2 testi-text">
+          <p className="headline-2 testi-text">
             All our foods are prepared with authentic ethiopian spices that are made in our own facility in Addis Ababa, Ethiopia.
           </p>
 
-          <div class="wrapper">
-            <div class="separator"></div>
-            <div class="separator"></div>
-            <div class="separator"></div>
+          <div className="wrapper">
+            <div className="separator"></div>
+            <div className="separator"></div>
+            <div className="separator"></div>
           </div>
 
-          <div class="profile">
+          <div className="profile">
             {/* <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
               class="img"> */}
 
