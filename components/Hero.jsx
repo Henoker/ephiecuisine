@@ -2,25 +2,93 @@ import Image from "next/image";
 import Heroslide1 from "../public/images/Meatcombo.png";
 import Heroslide2 from "../public/images/veggieCombofull.png";
 import Heroslide3 from "../public/images/MushroomTibes.jpg";
+import Heroslide4 from "../public/images/workplaces.jpg";
+import Heroslide5 from "../public/images/familykids.jpg";
+import Heroslide6 from "../public/images/cateringcart.jpg";
 import Heroicon from "../public/images/hero-icon.png";
 import Link from "next/link";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Hero() {
     return (
     <section className="hero text-center" aria-label="home" id="home">
-      <video
+      {/* <video
 					className="slider-bg"
 					src="/images/ephie2.mp4"
 					muted
 					playsInline
 					autoPlay
 					loop
-				/>
+				/>  */}
 
-      {/* <ul className="hero-slider" data-hero-slider=""> */}
-        {/* <li className="slider-item active" data-hero-slider-item="">
+{/* <div className="hero-slider">
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <div className="slider-item">
+          <SwiperSlide >
+          <Image src={Heroslide1} alt="hero" quality={100}
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: 'cover',
+        }} />
+          </SwiperSlide>
+        </div>
+        <div className="slider-item">
+          <SwiperSlide  >
+          <Image src={Heroslide2} alt="hero" quality={100}
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: 'cover',
+        }} />
+          </SwiperSlide>
+        </div>
+        <div className="slider-item">
+          <SwiperSlide  >
+          <Image src={Heroslide3} alt="hero" quality={100}
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: 'cover',
+        }} />
+          </SwiperSlide>
+        </div>
+      </Swiper>
+    </div> */}
+
+      <ul className="hero-slider" data-hero-slider=""> 
+         <li className="slider-item active" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide1} alt="hero" width={2048} height={2048} layout="responsive" />
+          <Image src={Heroslide1} 
+          quality={100}
+          fill
+          sizes="100vw"
+          style={{objectFit: 'cover',}}
+          />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             Tradational &amp; Hygine
@@ -32,19 +100,21 @@ export default function Hero() {
           <p className="body-2 hero-text slider-reveal">
             Come &amp; feel the joy of Ethiopian food
           </p>
-          <Link href="#menu" className="btn btn-primary slider-reveal">
-          <span className="text text-1">View Our Menu</span>
+          <a href="#menu" className="btn btn-primary slider-reveal">
+            <span className="text text-1">View Our Menu</span>
             <span className="text text-2" aria-hidden="true">
               View Our Menu
             </span>
-          </Link >
-          {/* <a href="#" className="btn btn-primary slider-reveal">
-           
-          </a> *
+          </a>
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg img-cover">
-          <Image src={Heroslide2} width={2048} height={2048} alt="" layout="responsive" />
+          <Image src={Heroslide2} 
+          quality={100}
+          fill
+          sizes="100vw"
+          style={{objectFit: 'cover',}}
+          />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             delightful experience
@@ -64,7 +134,12 @@ export default function Hero() {
         </li>
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
-          <Image src={Heroslide3} width={2048} height={2048} alt="" layout="responsive" />
+          <Image src={Heroslide3} 
+           quality={100}
+           fill
+           sizes="100vw"
+           style={{objectFit: 'cover',}}
+           />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             amazing &amp; delicious
@@ -83,6 +158,85 @@ export default function Hero() {
             </span>
           </a>
         </li>
+        <li className="slider-item" data-hero-slider-item="">
+          <div className="slider-bg">
+          <Image src={Heroslide4} 
+           quality={100}
+           fill
+           sizes="100vw"
+           style={{objectFit: 'cover',}}
+           />
+          </div>
+          <p className="label-2 section-subtitle slider-reveal">
+            amazing &amp; delicious
+          </p>
+          <h1 className="display-1 hero-title slider-reveal">
+            A place for your <br />
+            social gathering
+          </h1>
+          <p className="body-2 hero-text slider-reveal">
+            Come with your collegues
+          </p>
+          <a href="#contact" className="btn btn-primary slider-reveal">
+            <span className="text text-1">Book a Table</span>
+            <span className="text text-2" aria-hidden="true">
+              Book a Table
+            </span>
+          </a>
+        </li>
+        <li className="slider-item" data-hero-slider-item="">
+          <div className="slider-bg">
+          <Image src={Heroslide5} 
+           quality={100}
+           fill
+           sizes="100vw"
+           style={{objectFit: 'cover',}}
+           />
+          </div>
+          <p className="label-2 section-subtitle slider-reveal">
+            amazing &amp; delicious
+          </p>
+          <h1 className="display-1 hero-title slider-reveal">
+            A place for happy <br />
+            family meal
+          </h1>
+          <p className="body-2 hero-text slider-reveal">
+            Come with your family
+          </p>
+          <a href="#contact" className="btn btn-primary slider-reveal">
+            <span className="text text-1">Book a Table</span>
+            <span className="text text-2" aria-hidden="true">
+              Book a Table
+            </span>
+          </a>
+        </li>
+        <li className="slider-item" data-hero-slider-item="">
+          <div className="slider-bg">
+          <Image src={Heroslide6} 
+           quality={100}
+           fill
+           sizes="100vw"
+           style={{objectFit: 'cover',}}
+           />
+          </div>
+          <p className="label-2 section-subtitle slider-reveal">
+            amazing &amp; delicious
+          </p>
+          <h1 className="display-1 hero-title slider-reveal">
+           We provide reliable <br />
+            catering Services
+          </h1>
+          <p className="body-2 hero-text slider-reveal">
+            Order our Service
+          </p>
+          <a href="#contact" className="btn btn-primary slider-reveal">
+            <span className="text text-1">Contact Us</span>
+            <span className="text text-2" aria-hidden="true">
+              Contact Us
+            </span>
+          </a>
+        </li>
+        
       </ul>
       <button
         className="slider-btn prev"
@@ -101,7 +255,7 @@ export default function Hero() {
       <a href="#menu" className="hero-btn has-after">
       <Image src={Heroicon} width={48} height={48} alt="booking icon" />
         <span className="label-2 text-center span">Book A Table</span>
-      </a> */}
+      </a> 
     </section>
  
 

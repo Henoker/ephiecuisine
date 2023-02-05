@@ -730,7 +730,7 @@ nav{
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 10px;
+  top: 60px;
   width: 288px;
   row-gap: 24px;
   right: -288px;
@@ -849,7 +849,8 @@ nav{
 .hero {
   position: relative;
   padding-block: 120px;
-  max-height: 100vh;
+  height: 100vh;
+  padding: 4rem;
   overflow: hidden;
   z-index: 1;
 }
@@ -972,7 +973,27 @@ nav{
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+ .swiper-slide { 
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
 
 
@@ -2116,7 +2137,10 @@ textarea.input-field {
    * HERO
    */
 
-  .hero { height: 880px; }
+  .hero { 
+    height: 100vh;
+    width: 100vw;
+  }
 
   .hero-btn {
     bottom: 50px;

@@ -163,7 +163,9 @@ export default function Menu() {
           </span>
         </a>
 
-        <Image className="shape shape-3 move-anim" src={shape} alt="shape"/>
+        <Image className="shape shape-3 move-anim" style={{
+      backgroundImage: `url(${shape.src})`
+    }} alt="shape" src={shape}/>
        
       </div>
     </section>
