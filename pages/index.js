@@ -16,6 +16,7 @@ import Service from '../components/Service';
 import Contact from '../components/Contact';
 import Reservation from '../components/Testimonial';
 import Testimonial from '../components/Testimonial';
+import Events from '../components/Events';
 
 
 
@@ -35,6 +36,7 @@ export default function Home() {
           <Service/>
           <SpecialDish/>
           <Menu/>
+          <Events/>
           <Testimonial/>
           <Contact/>
         </article>

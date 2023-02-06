@@ -5,12 +5,10 @@ import badge from "../public/images/tiletc5.png";
 export default function SpecialDish() {
     return (
         <section className="special-dish text-center" aria-labelledby="dish-label">
-  <div className="special-dish-banner">
+  <div className="special-dish-banner bg-black-10">
     <div className="img-cover">
          <Image src={specialdishbanner} alt="special dish" layout="responsive"/>
     </div>
-    
-   
   </div>
   <div className="special-dish-content bg-black-10">
     <div className="container">
