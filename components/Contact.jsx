@@ -99,7 +99,7 @@ export default function Contact() {
         </div> */}
         <textarea
           name="message"
-          placeholder="Message"
+          placeholder="Message and Phone"
           autoComplete="off"
           className="input-field"
           {...register('Message', {required: 'Please enter booking details'})}

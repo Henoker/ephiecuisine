@@ -9,7 +9,7 @@ export default function Events() {
         <section className="section event bg-black-10" aria-label="event">
   <div className="container">
     <p className="section-subtitle label-2 text-center">Recent Updates</p>
-    <h2 className="section-title headline-1 text-center">Upcoming Event</h2>
+    <h2 className="section-title headline-1 text-center">Past Event</h2>
     <ul className="grid-list">
       <li>
         <div className="event-card has-before hover:shine">
