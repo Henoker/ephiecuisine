@@ -16,7 +16,7 @@ export default function TopBar() {
             <div className="icon">
               <ion-icon name="time-outline" aria-hidden="true" />
             </div>
-            <span className="span">Daily : 11.00 am to 10.00 pm</span>
+            <span className="span">Daily : 4.00 pm to 8.00 pm</span>
           </div>
           <a href="tel: +1 510-894-1894" className="topbar-item link">
             <div className="icon">

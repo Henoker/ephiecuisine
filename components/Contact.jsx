@@ -130,15 +130,15 @@ export default function Contact() {
           488 Mowry Ave  <br />
         Fremont, CA 94536
         </address>
-        <p className="contact-label">Lunch Time</p>
+        {/* <p className="contact-label">Lunch Time</p>
         <p className="body-4">
           Monday to Sunday <br />
           11.00 am - 2.30pm
-        </p>
+        </p> */}
         <p className="contact-label">Dinner Time</p>
         <p className="body-4">
           Monday to Sunday <br />
-          05.00 pm - 10.00pm
+          04.00 pm - 8.00pm
         </p>
       </div>
     </div>

@@ -26,7 +26,7 @@ export default function Footer() {
         <a href="tel:+1 510-894-1894" className="body-4 contact-link">
           Booking Request :  +1 510-894-1894
         </a>
-        <p className="body-4">Open : 11:00 am - 8:00 pm</p>
+        <p className="body-4">Open : 4:00 pm - 8:00 pm</p>
         <div className="wrapper">
           <div className="separator" />
           <div className="separator" />

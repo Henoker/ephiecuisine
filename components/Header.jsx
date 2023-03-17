@@ -65,7 +65,7 @@ export default function Header() {
         488 Mowry Ave  <br />
         Fremont, CA 94536
         </address>
-        <p className="body-4 navbar-text">Open: 10.00 am - 8.30pm</p>
+        <p className="body-4 navbar-text">Open: 4.00 pm - 8.00pm</p>
         <a href="mailto:ephieethiopiankitchen@gmail.com" className="body-4 sidebar-link">
         ephieethiopiankitchen@gmail.com
         </a>
