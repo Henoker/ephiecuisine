@@ -88,6 +88,7 @@ export default function Hero() {
           fill
           sizes="100vw"
           style={{objectFit: 'cover',}}
+          alt="heroslide1"
           />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
@@ -114,6 +115,7 @@ export default function Hero() {
           fill
           sizes="100vw"
           style={{objectFit: 'cover',}}
+          alt="heroslide2"
           />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
@@ -139,6 +141,7 @@ export default function Hero() {
            fill
            sizes="100vw"
            style={{objectFit: 'cover',}}
+           alt="heroslide3"
            />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
@@ -158,13 +161,14 @@ export default function Hero() {
             </span>
           </a>
         </li>
-        <li className="slider-item" data-hero-slider-item="">
+        {/* <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
           <Image src={Heroslide4} 
            quality={100}
            fill
            sizes="100vw"
            style={{objectFit: 'cover',}}
+           alt="heroslide2"
            />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
@@ -183,15 +187,17 @@ export default function Hero() {
               Book a Table
             </span>
           </a>
-        </li>
-        <li className="slider-item" data-hero-slider-item="">
+        </li> */}
+        {/* <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
           <Image src={Heroslide5} 
            quality={100}
            fill
            sizes="100vw"
            style={{objectFit: 'cover',}}
+           alt="heroslide2"
            />
+          
           </div>
           <p className="label-2 section-subtitle slider-reveal">
             amazing &amp; delicious
@@ -209,7 +215,7 @@ export default function Hero() {
               Book a Table
             </span>
           </a>
-        </li>
+        </li> */}
         <li className="slider-item" data-hero-slider-item="">
           <div className="slider-bg">
           <Image src={Heroslide6} 
@@ -217,6 +223,7 @@ export default function Hero() {
            fill
            sizes="100vw"
            style={{objectFit: 'cover',}}
+           alt="heroslide6"
            />
           </div>
           <p className="label-2 section-subtitle slider-reveal">
