@@ -1,10 +1,10 @@
 import Image from "next/image";
 import MeatCombo from "../public/images/Meatcombo.png";
-import PenneMarinara from "../public/images/PenneMarinara.png";
+import PenneMarinara from "../public/images/chikenalfredo.jpg";
 import redlentil from "../public/images/redlentil.png";
-import Pastaham from "../public/images/pastaham.png";
+import Pastaham from "../public/images/spagettimeatball.jpg";
 import Mushroombites from "../public/images/MushroomTibes.jpg";
-import CaeserSalad from "../public/images/CaeserSalad.jpg";
+import CaeserSalad from "../public/images/ChickenPesto.jpg";
 import shape from "../public/images/kettleart.png";
 
 
@@ -29,7 +29,7 @@ export default function Menu() {
                       Meat Combo
                     </a>
                   </h3>
-                  <span className="span title-2">$17.00</span>
+                  <span className="span title-2">$17.99</span>
                 </div>
                 <p className="card-text label-1">
                 Meat dish with beef, lamb alicha, chicken wot and collard
@@ -42,20 +42,20 @@ export default function Menu() {
             <div className="menu-card hover:card">
               <figure className="card-banner img-holder">
               <div className="img-cover">
-         <Image src={PenneMarinara} width={100} height={100} alt="Penne Marinara"/>
+         <Image src={PenneMarinara} width={100} height={100} alt="chicken alfredo"/>
                 </div>
               </figure>
               <div>
                 <div className="title-wrapper">
                   <h3 className="title-3">
                     <a href="#" className="card-title">
-                      Penne Marinara
+                      Chicken Alfredo
                     </a>
                   </h3>
-                  <span className="span title-2">$16.00</span>
+                  <span className="span title-2">$14.00</span>
                 </div>
                 <p className="card-text label-1">
-                penne pasta, marinara, caramelized peppers and onions and garlic
+                chicken breasts, Fettuccine pasta, Heavy cream, caramelized peppers and onions and garlic
                 </p>
               </div>
             </div>
@@ -118,13 +118,13 @@ export default function Menu() {
                 <div className="title-wrapper">
                   <h3 className="title-3">
                     <a href="#" className="card-title">
-                      Mushroom Bites
+                      Veggie Combo
                     </a>
                   </h3>
-                  <span className="span title-2">$14.00</span>
+                  <span className="span title-2">$16.99</span>
                 </div>
                 <p className="card-text label-1">
-                  Ethiopian spice includes onion ,tomato, garlic, and ginger
+                  Red lentil, Yellow Lentil, Collard Green, cabage
                 </p>
               </div>
             </div>
@@ -140,23 +140,19 @@ export default function Menu() {
                 <div className="title-wrapper">
                   <h3 className="title-3">
                     <a href="#" className="card-title">
-                       Caeser Salad
+                       Chicken Pesto penne green
                     </a>
                   </h3>
-                  <span className="span title-2">$9.00</span>
+                  <span className="span title-2">$15.00</span>
                 </div>
                 <p className="card-text label-1">
-                  salad with Romain, croton, shaved parmesan cheese
+                chicken breast, penne pasta, greens
                 </p>
               </div>
             </div>
           </li>
         </ul>
-        <p className="menu-text text-center">
-          Open daily from <span className="span">4:00 pm</span> to{" "}
-          <span className="span">8:00 pm</span>
-        </p>
-        <a href="Menu.pdf" download="Menu.PDF" className="btn btn-primary">
+        <a href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank" className="btn btn-primary" rel="noreferrer">
           <span className="text text-1">View All Menu</span>
           <span className="text text-2" aria-hidden="true">
             View All Menu

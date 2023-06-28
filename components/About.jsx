@@ -23,12 +23,12 @@ export default function About() {
         by fluffy injera bread. And if you prefer your dishes on the mild side, we can customize any dish to the 
         exact spice level that you wish. We are changing the way fremont customers eat and enjoy food.
       </p>
-      <div className="contact-label">Book Through Call</div>
+      <div className="contact-label">Order Online now</div>
       <a
-        href="tel:+804001234567"
-        className="body-1 contact-number hover-underline"
+        href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank"
+        className="body-1 contact-number hover-underline" rel="noreferrer"
       >
-        +1 510-894-1894
+        DOORDASH
       </a>
       {/* <a href="#" className="btn btn-primary">
         <span className="text text-1">Read More</span>

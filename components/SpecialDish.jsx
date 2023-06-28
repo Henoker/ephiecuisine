@@ -22,9 +22,9 @@ export default function SpecialDish() {
         different Ethiopian dishes. 
       </p>
       <div className="wrapper">
-        <span className="span body-1">$16.00</span>
+        <span className="span body-1">$17.99</span>
       </div>
-      <a href="Menu.pdf" download="Menu.PDF" className="btn btn-primary">
+      <a href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank" className="btn btn-primary" rel="noreferrer">
          <span className="text text-1">View All Menu</span>
          <span className="text text-2" aria-hidden="true">
           View All Menu

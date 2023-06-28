@@ -34,7 +34,7 @@ export default function Service() {
         <h3 className="title-4 card-title">
           <a href="#">Ethiopian Foods</a>
         </h3>
-        <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
+        <a href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank" className="btn-text hover-underline label-2" rel="noreferrer">
           View Menu
         </a>
       </div>
@@ -56,7 +56,7 @@ export default function Service() {
         <h3 className="title-4 card-title">
           <a href="#">Italian Dishes</a>
         </h3>
-        <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
+        <a href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank" className="btn-text hover-underline label-2" rel="noreferrer">
           View Menu
         </a>
       </div>
@@ -78,7 +78,7 @@ export default function Service() {
         <h3 className="title-4 card-title">
           <a href="#">Catering Services</a>
         </h3>
-        <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
+        <a href="https://order.online/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/?delivery=true&hideModal=true" target="_blank" className="btn-text hover-underline label-2" rel="noreferrer">
           View Menu
         </a>
       </div>

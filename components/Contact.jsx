@@ -25,11 +25,11 @@ export default function Contact() {
       <form onSubmit={handleSubmit(submitHandler)}  className="form-left">
         <h2 className="headline-1 text-center">Contact Us</h2>
         <p className="form-text text-center">
-          Contact us{" "}
-          <a href="tel:+88123123456" className="link">
-          +1 510-894-1894 <br></br>
+         email us{" "}
+          <a href="mailto:ephesonbeyene@gmail.com">
+          ephieethiopiankitchen@gmail.com <br></br>
           </a>
-          or head to any of our official third-party partners, DoorDash, Grubhub, and Uber Eats. 
+          or send your message below. 
         </p>
         <div className="input-wrapper">
           <input
@@ -124,18 +124,8 @@ export default function Contact() {
         Fremont, CA 94536
         </address> */}
         <li>
-          <a href="https://www.doordash.com/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/" className="label-2 footer-link hover-underline">
+          <a href="https://order.online/business/ephies-ethiopian-kitchen-mowry-ave-554727" target="_blank" className="label-2 footer-link hover-underline" rel="noreferrer">
             DOORDASH
-          </a>
-        </li>
-        <li>
-          <a href="https://www.grubhub.com/restaurant/ephie-ethiopian-kitchen-488-mowry-ave-fremont/2377689" className="label-2 footer-link hover-underline">
-            GrubHub
-          </a>
-        </li>
-        <li>
-          <a href="https://www.ubereats.com/store/ephie-ethiopian-kitchen/90iRW742QPqH9tf3r3GIuw" className="label-2 footer-link hover-underline">
-            UberEats
           </a>
         </li>
         {/* <p className="contact-label">Lunch Time</p>
