@@ -14,7 +14,7 @@ export default function Contact() {
         'Content-Type': 'application/json'
       }
     })
-    toast('Thank you! Your Booking is Registered', { hideProgressBar: true, autoClose: 2000, type: 'success', theme: "dark", position: "bottom-center" })
+    toast('Thank you! Your message is sent successfully', { hideProgressBar: true, autoClose: 2000, type: 'success', theme: "dark", position: "bottom-center" })
     reset()
     
   }
@@ -23,13 +23,13 @@ export default function Contact() {
   <div className="container">
     <div className="form reservation-form bg-black-10">
       <form onSubmit={handleSubmit(submitHandler)}  className="form-left">
-        <h2 className="headline-1 text-center">Online Reservation</h2>
+        <h2 className="headline-1 text-center">Contact Us</h2>
         <p className="form-text text-center">
-          Booking request{" "}
+          Contact us{" "}
           <a href="tel:+88123123456" className="link">
           +1 510-894-1894 <br></br>
           </a>
-          or fill out the order form
+          or head to any of our official third-party partners, DoorDash, Grubhub, and Uber Eats. 
         </p>
         <div className="input-wrapper">
           <input
@@ -106,40 +106,48 @@ export default function Contact() {
         />
         {errors.Message && errors.Message.message}
         <button type="submit" className="btn btn-secondary">
-          <span className="text text-1">Book A Table</span>
+          <span className="text text-1">Send</span>
           <span className="text text-2" aria-hidden="true">
-            Book A Table
+            Send
           </span>
         </button>
       </form>
+    
       <div
         className="form-right text-center"
         style={{ backgroundImage: 'url("./assets/images/form-pattern.png")' }}
       >
-        <h2 className="headline-1 text-center">Contact Us</h2>
-        <p className="contact-label">Booking Request</p>
-        <a
-          href="tel:+88123123456"
-          className="body-1 contact-number hover-underline"
-        >
-          +1 510-894-1894
-        </a>
-        <div className="separator" />
-        <p className="contact-label">Location</p>
-        <address className="body-4">
+        <h2 className="headline-1 text-center">Order On</h2>
+        
+        {/* <address className="body-4">
           488 Mowry Ave  <br />
         Fremont, CA 94536
-        </address>
+        </address> */}
+        <li>
+          <a href="https://www.doordash.com/store/ephie's-ethiopian-kitchen-(mowry-ave)-fremont-1187321/" className="label-2 footer-link hover-underline">
+            DOORDASH
+          </a>
+        </li>
+        <li>
+          <a href="https://www.grubhub.com/restaurant/ephie-ethiopian-kitchen-488-mowry-ave-fremont/2377689" className="label-2 footer-link hover-underline">
+            GrubHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.ubereats.com/store/ephie-ethiopian-kitchen/90iRW742QPqH9tf3r3GIuw" className="label-2 footer-link hover-underline">
+            UberEats
+          </a>
+        </li>
         {/* <p className="contact-label">Lunch Time</p>
         <p className="body-4">
           Monday to Sunday <br />
           11.00 am - 2.30pm
         </p> */}
-        <p className="contact-label">Dinner Time</p>
+        {/* <p className="contact-label">Dinner Time</p>
         <p className="body-4">
           Monday to Sunday <br />
           04.00 pm - 8.00pm
-        </p>
+        </p> */}
       </div>
     </div>
   </div>

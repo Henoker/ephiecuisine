@@ -99,7 +99,7 @@ export default function Hero() {
             healthy food
           </h1>
           <p className="body-2 hero-text slider-reveal">
-            Come &amp; feel the joy of Ethiopian food
+           Feel the joy of Ethiopian food
           </p>
           <a href="#menu" className="btn btn-primary slider-reveal">
             <span className="text text-1">View Our Menu</span>

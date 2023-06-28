@@ -1,7 +1,7 @@
 import Image from "next/image";
 import service2 from "../public/images/toffuethio.png";
-import service3 from "../public/images/Ephiegarlic.jpg";
-import service4 from "../public/images/wine.jpg";
+import service3 from "../public/images/PenneMarinara.png";
+import service4 from "../public/images/cateringcart.jpg";
 import shape from "../public/images/tiletc.png";
 
 export default function Service() {
@@ -32,7 +32,7 @@ export default function Service() {
 </a>
       <div className="card-content">
         <h3 className="title-4 card-title">
-          <a href="#">Lunch/Dinner</a>
+          <a href="#">Ethiopian Foods</a>
         </h3>
         <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
           View Menu
@@ -54,7 +54,7 @@ export default function Service() {
 </a>
       <div className="card-content">
         <h3 className="title-4 card-title">
-          <a href="#">Appetizers</a>
+          <a href="#">Italian Dishes</a>
         </h3>
         <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
           View Menu
@@ -76,7 +76,7 @@ export default function Service() {
 </a>
       <div className="card-content">
         <h3 className="title-4 card-title">
-          <a href="#">Drinks</a>
+          <a href="#">Catering Services</a>
         </h3>
         <a href="Menu.pdf" download="Menu.PDF" className="btn-text hover-underline label-2">
           View Menu

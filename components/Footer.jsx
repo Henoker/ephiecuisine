@@ -17,16 +17,16 @@ export default function Footer() {
         <Image src={logo} width={160} height={50} alt="Grilli - Home" />
          
         </Link>
-        <address className="body-4">
+        {/* <address className="body-4">
           488 Mowry Ave Fremont, CA 94536
-        </address>
+        </address> */}
         <a href="mailto:ephieethiopiankitchen@gmail.com" className="body-4 contact-link">
         ephieethiopiankitchen@gmail.com
         </a>
         <a href="tel:+1 510-894-1894" className="body-4 contact-link">
-          Booking Request :  +1 510-894-1894
+          Order Request :  +1 510-894-1894
         </a>
-        <p className="body-4">Open : 4:00 pm - 8:00 pm</p>
+        {/* <p className="body-4">Open : 4:00 pm - 8:00 pm</p> */}
         <div className="wrapper">
           <div className="separator" />
           <div className="separator" />
@@ -86,11 +86,6 @@ export default function Footer() {
         <li>
           <a href="https://www.youtube.com/@EphieBrettKitchen" className="label-2 footer-link hover-underline">
             Youtube
-          </a>
-        </li>
-        <li>
-          <a href="https://www.google.com/maps/place/488+Mowry+Ave,+Fremont,+CA+94536,+USA/@37.567482,-121.9743387,17z/data=!3m1!4b1!4m5!3m4!1s0x808fc060ef6cb825:0x7aa610fe6802b389!8m2!3d37.567482!4d-121.97215" className="label-2 footer-link hover-underline">
-            Google Map
           </a>
         </li>
       </ul>
