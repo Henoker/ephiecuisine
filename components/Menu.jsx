@@ -3,7 +3,7 @@ import MeatCombo from "../public/images/Meatcombo.png";
 import PenneMarinara from "../public/images/chikenalfredo.jpg";
 import redlentil from "../public/images/redlentil.png";
 import Pastaham from "../public/images/spagettimeatball.jpg";
-import Mushroombites from "../public/images/MushroomTibes.jpg";
+import Mushroombites from "../public/images/veggieCombofull1.jpg";
 import CaeserSalad from "../public/images/ChickenPesto.jpg";
 import shape from "../public/images/kettleart.png";
 
@@ -121,7 +121,7 @@ export default function Menu() {
                       Veggie Combo
                     </a>
                   </h3>
-                  <span className="span title-2">$16.99</span>
+                  <span className="span title-2">$17.99</span>
                 </div>
                 <p className="card-text label-1">
                   Red lentil, Yellow Lentil, Collard Green, cabage

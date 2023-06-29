@@ -69,18 +69,8 @@ export default function Footer() {
       </ul>
       <ul className="footer-list">
         <li>
-          <a href="https://www.grubhub.com/restaurant/ephie-ethiopian-kitchen-488-mowry-ave-fremont/2377689" className="label-2 footer-link hover-underline">
-            GrubHub
-          </a>
-        </li>
-        <li>
           <a href="https://www.instagram.com/ephiecuisine" className="label-2 footer-link hover-underline">
             Instagram
-          </a>
-        </li>
-        <li>
-          <a href="https://www.ubereats.com/store/ephie-ethiopian-kitchen/90iRW742QPqH9tf3r3GIuw" className="label-2 footer-link hover-underline">
-            UberEats
           </a>
         </li>
         <li>
